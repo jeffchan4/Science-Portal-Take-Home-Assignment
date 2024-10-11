@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #fbfbfb;
   }
 }
 
@@ -33,6 +33,57 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.image-container {
+  max-width: 100%;
+}
+
+.padding-container {
+  padding-bottom: 10rem;
+}
+
+.carousel-description {
+  padding: 1rem;
+}
+
+.button-container .pill-btn {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem !important; 
+  height: 3rem !important;
+  background-size: 100%, 100% !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.carousel-control-prev {
+  left: -70px !important; 
+  padding-right: 4rem !important;
+}
+
+.carousel-control-next {
+  right: -70px !important;
+  padding-left: 4rem !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100% !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.preserve-newlines {
+  white-space: pre-line;
+}
+
+.home-button {
+  margin-top: 5rem !important;
 }
 
 @media (prefers-color-scheme: dark) {
