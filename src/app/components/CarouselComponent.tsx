@@ -15,7 +15,7 @@ function CarouselComponent() {
     {
       id: 2,
       title: 'Instructions',
-      description: 'A successful submission will be one where the individual carousel slides have been broken out accordingly. \n\n The slides should be broken out in a manner that extracts the first slide into its own component and has it displayed prominently above the other slides. The other slides should be converted into a general card component, which when clicked reveals the associated text as dropdown text. These card components should be arranged in a grid layout. ',
+      description: 'The project is built using Next.js and React, with TypeScript support. It uses Bootstrap and React Bootstrap for styling and components. A successful submission will be one where the individual carousel slides have been broken out accordingly. \n\n The slides should be broken out in a manner that extracts the first slide into its own component and has it displayed prominently above the other slides. The other slides should be converted into a general card component, which when clicked reveals the associated text as dropdown text. These card components should be arranged in a grid layout. ',
       imageSrc: 'https://www.doctorswithoutborders.org/sites/default/files/styles/crop_article_mobile_335_189/public/image_base_media/2022/06/MSB127143.jpg?itok=nIKK3T18',
       linkUrl: '/instructions',
       linkTitle: 'Submission Details'
